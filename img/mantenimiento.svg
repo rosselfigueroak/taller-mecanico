@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#2b2d42"/>
+  <rect y="240" width="600" height="60" fill="#1d1d1f"/>
+  <!-- auto -->
+  <path d="M120 200 L160 140 L330 140 L390 190 L470 200 L480 235 L110 235 Z" fill="#d62828"/>
+  <path d="M175 148 L235 148 L235 188 L150 188 Z" fill="#a8dadc"/>
+  <path d="M248 148 L322 148 L370 188 L248 188 Z" fill="#a8dadc"/>
+  <circle cx="180" cy="238" r="28" fill="#111"/><circle cx="180" cy="238" r="12" fill="#aaa"/>
+  <circle cx="400" cy="238" r="28" fill="#111"/><circle cx="400" cy="238" r="12" fill="#aaa"/>
+  <!-- llave -->
+  <g transform="translate(500 70) rotate(45)" fill="#f2f2f2">
+    <rect x="-8" y="0" width="16" height="110" rx="6"/>
+    <path d="M-28 -10 a28 28 0 1 1 56 0 l-14 0 l0 -18 l-28 0 l0 18 Z"/>
+  </g>
+  <text x="30" y="60" font-family="Arial" font-size="32" font-weight="bold" fill="#fff">Mantenimiento</text>
+</svg>

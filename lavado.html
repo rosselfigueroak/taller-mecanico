@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lavado y detallado | El Pistón</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="lavado.css">
 </head>
 <body>
   <header class="header">
@@ -24,14 +25,90 @@
 
   <main class="contenedor detalle">
     <h1>Servicio 2: Lavado y detallado</h1>
-    <p>🚧 Página en construcción — esta sección la desarrolla el Estudiante 2 en su rama <code>feat/detalleservicio2</code>.</p>
-    <img src="img/lavado.svg" alt="Lavado de auto" class="principal">
+    <p>Tu auto merece verse tan bien como funciona. En nuestra área de lavado usamos productos biodegradables, microfibra y técnicas de detallado profesional para dejar tu vehículo impecable por dentro y por fuera, sin dañar la pintura.</p>
+
+    <img src="img/lavado.svg" alt="Auto recibiendo lavado con espuma" class="principal">
+
+    <h2>¿Qué hacemos?</h2>
+    <div class="servicios-lavado">
+      <article class="item-lavado">
+        <span class="icono">🚿</span>
+        <h3>Lavado exterior</h3>
+        <p>Prelavado con espuma activa, lavado a mano, limpieza de aros y secado con microfibra.</p>
+      </article>
+      <article class="item-lavado">
+        <span class="icono">🧽</span>
+        <h3>Limpieza interior</h3>
+        <p>Aspirado completo, limpieza de tablero, puertas, vidrios y desodorización.</p>
+      </article>
+      <article class="item-lavado">
+        <span class="icono">💺</span>
+        <h3>Tapicería</h3>
+        <p>Lavado profundo de asientos y alfombras con máquina inyección-extracción.</p>
+      </article>
+      <article class="item-lavado">
+        <span class="icono">✨</span>
+        <h3>Pulido y encerado</h3>
+        <p>Corrección de rayones superficiales, pulido de faros y cera protectora de larga duración.</p>
+      </article>
+    </div>
+
+    <img src="img/detallado.svg" alt="Auto pulido y brillante después del detallado" class="principal">
+
+    <h2>Paquetes y precios</h2>
+    <p>Precios para autos (sedán / hatchback). Para camionetas y vagonetas se aplica un recargo.</p>
+    <table>
+      <thead>
+        <tr><th>Incluye</th><th>Básico</th><th>Completo</th><th>Premium</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Lavado exterior a mano</td><td>✔</td><td>✔</td><td>✔</td></tr>
+        <tr><td>Aspirado interior</td><td>✔</td><td>✔</td><td>✔</td></tr>
+        <tr><td>Limpieza de tablero y vidrios</td><td>—</td><td>✔</td><td>✔</td></tr>
+        <tr><td>Lavado de tapicería</td><td>—</td><td>✔</td><td>✔</td></tr>
+        <tr><td>Pulido y encerado</td><td>—</td><td>—</td><td>✔</td></tr>
+        <tr><td>Restauración de faros</td><td>—</td><td>—</td><td>✔</td></tr>
+        <tr><td><strong>Tiempo estimado</strong></td><td>40 min</td><td>2 h</td><td>4 h</td></tr>
+        <tr class="fila-precio"><td><strong>Precio (Bs)</strong></td><td>50</td><td>180</td><td>350</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Calcula tu precio</h2>
+    <div class="calculadora">
+      <label for="paquete">Paquete:</label>
+      <select id="paquete">
+        <option value="50">Básico — Bs 50</option>
+        <option value="180">Completo — Bs 180</option>
+        <option value="350">Premium — Bs 350</option>
+      </select>
+
+      <label for="vehiculo">Tipo de vehículo:</label>
+      <select id="vehiculo">
+        <option value="1">Auto (sin recargo)</option>
+        <option value="1.2">Vagoneta / SUV (+20%)</option>
+        <option value="1.4">Camioneta (+40%)</option>
+      </select>
+
+      <label class="extra"><input type="checkbox" id="motor" value="60"> Lavado de motor (+ Bs 60)</label>
+
+      <p class="resultado">Total: Bs <span id="totalLavado">50</span></p>
+    </div>
+
+    <h2>Consejos para cuidar la pintura</h2>
+    <ul>
+      <li>Lava tu auto cada 2 semanas para evitar que el polvo y el barro dañen la pintura.</li>
+      <li>No lo laves bajo el sol fuerte: el jabón se seca y deja manchas.</li>
+      <li>Aplica cera al menos cada 3 meses para protegerlo de la lluvia y los rayos UV.</li>
+    </ul>
+    <br>
+    <a href="index.html#contacto" class="boton">Agendar lavado</a>
   </main>
 
   <footer class="footer">
-    <p>&copy; <span id="anio"></span> Taller Mecánico El Pistón.</p>
+    <p>&copy; <span id="anio"></span> Taller Mecánico El Pistón. Elaborado por el Estudiante 2.</p>
   </footer>
 
   <script src="script.js"></script>
+  <script src="lavado.js"></script>
 </body>
 </html>

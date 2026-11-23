@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#1d1d1f"/>
+  <rect y="240" width="600" height="60" fill="#333"/>
+  <path d="M120 200 L160 140 L330 140 L390 190 L470 200 L480 235 L110 235 Z" fill="#d62828"/>
+  <path d="M175 148 L235 148 L235 188 L150 188 Z" fill="#cfe8ff"/>
+  <path d="M248 148 L322 148 L370 188 L248 188 Z" fill="#cfe8ff"/>
+  <path d="M170 160 L300 150" stroke="#fff" stroke-width="4" opacity=".5"/>
+  <circle cx="180" cy="238" r="28" fill="#111"/><circle cx="180" cy="238" r="12" fill="#ccc"/>
+  <circle cx="400" cy="238" r="28" fill="#111"/><circle cx="400" cy="238" r="12" fill="#ccc"/>
+  <g fill="#ffd166">
+    <path d="M150 110 l6 14 l14 6 l-14 6 l-6 14 l-6 -14 l-14 -6 l14 -6 Z"/>
+    <path d="M430 150 l5 11 l11 5 l-11 5 l-5 11 l-5 -11 l-11 -5 l11 -5 Z"/>
+    <path d="M300 95 l4 9 l9 4 l-9 4 l-4 9 l-4 -9 l-9 -4 l9 -4 Z"/>
+  </g>
+  <text x="30" y="60" font-family="Arial" font-size="32" font-weight="bold" fill="#fff">Pulido y detallado</text>
+</svg>

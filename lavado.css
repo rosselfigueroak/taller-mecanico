@@ -1,0 +1,32 @@
+/* ===== Estilos propios de la página Lavado y detallado (Estudiante 2) ===== */
+.servicios-lavado {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.item-lavado {
+  background: #fff;
+  border-left: 5px solid var(--rojo);
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0,0,0,.08);
+  padding: 20px;
+  transition: transform .3s;
+}
+.item-lavado:hover { transform: translateY(-4px); }
+.item-lavado .icono { font-size: 2rem; }
+.item-lavado h3 { margin: 8px 0; color: var(--oscuro); }
+
+.fila-precio td { font-size: 1.1rem; color: var(--rojo); font-weight: bold; }
+td:not(:first-child), th:not(:first-child) { text-align: center; }
+
+.calculadora {
+  background: var(--gris);
+  border-radius: 10px;
+  padding: 25px;
+  display: grid;
+  gap: 10px;
+  max-width: 420px;
+}
+.calculadora select { padding: 8px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; }
+.calculadora .extra { margin-top: 5px; }
+.calculadora .resultado { font-size: 1.4rem; font-weight: bold; color: var(--oscuro); margin-top: 10px; }

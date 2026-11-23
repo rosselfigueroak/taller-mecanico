@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mantenimiento de autos | El Pistón</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="contenedor nav">
+      <a href="index.html" class="logo">🔧 El Pistón</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+      <nav>
+        <ul class="menu" id="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="mantenimiento.html" class="activo">Mantenimiento</a></li>
+          <li><a href="lavado.html">Lavado y detallado</a></li>
+          <li><a href="index.html#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor detalle">
+    <h1>Servicio 1: Mantenimiento de autos</h1>
+    <p>Un buen mantenimiento preventivo alarga la vida de tu vehículo, ahorra combustible y evita reparaciones costosas. Nuestros mecánicos certificados revisan tu auto punto por punto.</p>
+
+    <img src="img/mantenimiento.svg" alt="Mecánico revisando un auto" class="principal">
+
+    <h2>¿Qué incluye?</h2>
+    <ul>
+      <li>Cambio de aceite y filtro de aceite</li>
+      <li>Revisión y cambio de pastillas de freno</li>
+      <li>Afinado de motor (bujías, filtro de aire y de combustible)</li>
+      <li>Revisión de suspensión, llantas y alineación</li>
+      <li>Diagnóstico computarizado (escáner)</li>
+    </ul>
+
+    <h2>Lista de precios</h2>
+    <table>
+      <thead>
+        <tr><th>Servicio</th><th>Tiempo estimado</th><th>Precio (Bs)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Cambio de aceite y filtro</td><td>30 min</td><td>250</td></tr>
+        <tr><td>Cambio de pastillas de freno</td><td>1 h</td><td>300</td></tr>
+        <tr><td>Afinado de motor</td><td>2 h</td><td>450</td></tr>
+        <tr><td>Alineación y balanceo</td><td>1 h</td><td>150</td></tr>
+        <tr><td>Diagnóstico computarizado</td><td>30 min</td><td>100</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Cotiza tu servicio</h2>
+    <p>Marca los servicios que necesitas:</p>
+    <p>
+      <label><input type="checkbox" class="servicio-check" value="250"> Cambio de aceite</label><br>
+      <label><input type="checkbox" class="servicio-check" value="300"> Pastillas de freno</label><br>
+      <label><input type="checkbox" class="servicio-check" value="450"> Afinado de motor</label><br>
+      <label><input type="checkbox" class="servicio-check" value="150"> Alineación y balanceo</label><br>
+      <label><input type="checkbox" class="servicio-check" value="100"> Diagnóstico</label>
+    </p>
+    <h3>Total estimado: Bs <span id="total">0</span></h3>
+
+    <h2>Recomendaciones</h2>
+    <p>Te sugerimos hacer el cambio de aceite cada 5.000 km y una revisión general cada 6 meses.</p>
+    <br>
+    <a href="index.html#contacto" class="boton">Agendar cita</a>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="anio"></span> Taller Mecánico El Pistón. Elaborado por el Estudiante 1.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

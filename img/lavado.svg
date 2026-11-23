@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#219ebc"/>
+  <rect y="240" width="600" height="60" fill="#023047"/>
+  <path d="M120 200 L160 140 L330 140 L390 190 L470 200 L480 235 L110 235 Z" fill="#ffb703"/>
+  <path d="M175 148 L235 148 L235 188 L150 188 Z" fill="#e0fbfc"/>
+  <path d="M248 148 L322 148 L370 188 L248 188 Z" fill="#e0fbfc"/>
+  <circle cx="180" cy="238" r="28" fill="#111"/><circle cx="180" cy="238" r="12" fill="#aaa"/>
+  <circle cx="400" cy="238" r="28" fill="#111"/><circle cx="400" cy="238" r="12" fill="#aaa"/>
+  <g fill="#fff" opacity=".85">
+    <circle cx="200" cy="110" r="14"/><circle cx="230" cy="90" r="10"/><circle cx="260" cy="115" r="18"/>
+    <circle cx="300" cy="85" r="12"/><circle cx="340" cy="110" r="15"/><circle cx="380" cy="95" r="9"/>
+  </g>
+  <text x="30" y="60" font-family="Arial" font-size="32" font-weight="bold" fill="#fff">Lavado y detallado</text>
+</svg>

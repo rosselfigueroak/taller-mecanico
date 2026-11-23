@@ -30,3 +30,6 @@ td:not(:first-child), th:not(:first-child) { text-align: center; }
 .calculadora select { padding: 8px; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; }
 .calculadora .extra { margin-top: 5px; }
 .calculadora .resultado { font-size: 1.4rem; font-weight: bold; color: var(--oscuro); margin-top: 10px; }
+
+/* Mostrar las imágenes completas (sin recortar el texto del SVG) */
+.detalle img.principal { max-height: none; height: auto; max-width: 750px; display: block; margin: 25px auto; }

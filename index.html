@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taller Mecánico "El Pistón" | Inicio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="contenedor nav">
+      <a href="index.html" class="logo">🔧 El Pistón</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+      <nav>
+        <ul class="menu" id="menu">
+          <li><a href="index.html" class="activo">Inicio</a></li>
+          <li><a href="mantenimiento.html">Mantenimiento</a></li>
+          <li><a href="lavado.html">Lavado y detallado</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="contenedor">
+      <h1>Cuidamos tu auto como si fuera nuestro</h1>
+      <p>Más de 10 años brindando servicio mecánico de confianza en la ciudad.</p>
+      <a href="#servicios" class="boton">Ver servicios</a>
+    </div>
+  </section>
+
+  <main class="contenedor">
+    <section id="servicios" class="seccion">
+      <h2>Nuestros servicios</h2>
+      <div class="tarjetas">
+        <article class="tarjeta">
+          <img src="img/mantenimiento.svg" alt="Mantenimiento de autos">
+          <h3>Mantenimiento de autos</h3>
+          <p>Cambio de aceite, revisión de frenos, afinado de motor y diagnóstico general para que tu vehículo funcione siempre en óptimas condiciones.</p>
+          <a href="mantenimiento.html" class="boton">Más información</a>
+        </article>
+        <article class="tarjeta">
+          <img src="img/lavado.svg" alt="Lavado y detallado">
+          <h3>Lavado y detallado</h3>
+          <p>Lavado exterior e interior, encerado, pulido y limpieza de tapicería para que tu auto luzca como nuevo.</p>
+          <a href="lavado.html" class="boton">Más información</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="seccion contacto">
+      <h2>Contacto</h2>
+      <p>📍 Av. Principal #123 &nbsp;|&nbsp; 📞 700-12345 &nbsp;|&nbsp; 🕗 Lun–Sáb 8:00–18:00</p>
+      <form id="formContacto" class="formulario">
+        <input type="text" id="nombre" placeholder="Tu nombre" required>
+        <input type="tel" id="telefono" placeholder="Tu teléfono" required>
+        <button type="submit" class="boton">Solicitar cita</button>
+      </form>
+      <p id="mensaje" class="mensaje"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="anio"></span> Taller Mecánico El Pistón. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
